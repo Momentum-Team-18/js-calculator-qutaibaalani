@@ -9,21 +9,26 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
-.calculator-shape {
+.calculatorShape {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 400px;
+
 }
 
-.display-window {
+.displayWindow {
     grid-column: span 3;
     background-color: #64b255;
     border-style: solid;
     border-width: 0.1px;
     border-color: #9ecf95;
     color: #fff;
-    font-size: 30px
+    font-size: 30px;
+    padding-top: 27px;
+    padding-left: 20px;
 }
 
 
@@ -55,8 +60,8 @@ html {
 }
 
 
-.equal-sign,
-.clear-key {
+.equalSign,
+.clearKey {
     color: #fff;
 }
 
@@ -64,4 +69,13 @@ html {
 .key:hover {
     background-color: #1a6900;
     color: #fff;
+}
+
+.QQQ {
+    margin-left: 200px;
+    padding-top: 150px;
+}
+
+.Q {
+    margin-bottom: 400px;
 }
